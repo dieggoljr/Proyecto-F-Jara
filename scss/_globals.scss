@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-color {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: bisque;
+}
+
+img {
+  max-width: 90%;
+}
+/*algo 2*/
+
+/*media queris*/
+@media (max-width: 768px) {
+  .body-color {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: bisque;
+
+    .imagenes-descargas {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .parrafo-1 {
+      font-size: 0.9rem;
+      text-align: center;
+      border: 10px;
+      padding: 10px 30px;
+      color: black;
+    }
+    .contenedor-1 {
+      border: 2px;
+      padding: 30px 5px 40px 5px;
+      height: 90%;
+      width: 90%;
+      overflow: hidden;
+      text-align: justify;
+      margin-left: 10px;
+      font-size: 0.8rem;
+    }
+    .contenedor {
+      width: 90%;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    .titulo_betara {
+      color: rgba(211, 85, 12, 0.63);
+      text-transform: uppercase;
+      text-align-last: center;
+      border: 10px;
+      padding: 10px 10px 0 10px;
+      font-size: 2rem;
+      margin-bottom: o;
+      text-decoration: none;
+      text-align: center;
+      animation: aparecer 1s ease forwards;
+    }
+    .titulo_betara2 {
+      color: rgba(165, 128, 42, 0.63);
+      text-align: center;
+      animation: aparecer 1s ease forwards;
+      font-size: 0.8rem;
+    }
+    @keyframes aparecer {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    .h2-index {
+      padding-top: 10px;
+    }
+    footer {
+      background-color: black;
+      color: white;
+    }
+    .footer-1 {
+      color: white;
+      text-align: left;
+      background-color: rgb(148, 16, 16);
+    }
+  }
+}

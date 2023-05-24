@@ -1,0 +1,24 @@
+footer {
+  background-color: black;
+  color: white;
+
+  .footer-1 {
+    color: white;
+    text-align: left;
+    background-color: gray;
+  }
+  #footer-2 {
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 150%;
+    filter: saturate(0%) brightness(1000%);
+    a {
+      margin-right: 1rem;
+    }
+  }
+  .footer-3 {
+    text-align: center;
+  }
+}
